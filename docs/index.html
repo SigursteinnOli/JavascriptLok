@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lokaverkefni</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+	<body>
+		<div id="myDiv" class="main">
+			<input type="text" id="name"></input>
+			<button onclick="RestartButton()" id="StartButton">Start</button>
+			<button onclick="ContinueButton()" id="ContinueButton">Continue</button>
+			<button onclick="RestartButton()" id="RestartButton">Restart</button>
+			<button onclick="HelpButton()" id="HelpButton">How to Play</button>
+
+
+			<ul id="ScoreList">
+			</ul>
+		</div>
+		<div id="help" class="help">
+				<h2>Help</h2>
+				<p>Markmiðið í leiknum er að lifa af eins lengi og þú getur og drepa eins marga uppvakninga og þú getur</p>
+				<p>Þú hreyfir Characterinn með WASD og notar byssuna með E</p>
+				<p>Áður en þú byrjar leikinn þarftu að skrá nafnið þitt</p>
+				<p>Ef þú skildir gleyma því, þá er alltaf hægt að pása leikinn með ESC takkanum</p>
+				<p>EF þú setur ekkert nafn inn verður gefið þér random nafn</p>
+				<p>þar getur þú bæði endurskýrt þig og restartað leiknum ef þú villt</p>
+				<p>(Þú þarft ekki að restarta til þess að nafnið uppfærist)</p>
+				<p>Þegar þú deyrð keumur upp Stigataflan af top 5 spilurum.</p>
+				<p>Þar getur þú sett inn nýtt nafn, ýtt á restart og þá byrjaru uppá nýtt með því nafni</p>
+				<p>Þú verður að fá að minnsta kosti eitt kill til þess að komast á Stigatöfluna</p>
+				<p>Til þess að losna við "Help" síðuna getur þú ýtt aftur á "Help" takkan, Eða bara einfaldlega byrjað leikinn</p>
+				<p>Nú ættiru að vera tilbúinn í slaginn.</p>
+				<p>Gangi þér vel</p>
+			</div>
+
+		
+		<canvas></canvas>
+		<script src="Game.js"></script>
+	</body>
+</html>
